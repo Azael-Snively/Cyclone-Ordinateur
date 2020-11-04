@@ -86,7 +86,7 @@ public class iceAlleyLibrarie {
 		
 		Home.setBackground(bar.getBackground());
 		Home.setBorderPainted(false);
-		ImageIcon maison = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Maison.png");
+		ImageIcon maison = new ImageIcon("Ressources/Maison.png");
 		Home.setIcon(maison);
 		Home.getIcon();
 		
@@ -106,7 +106,7 @@ public class iceAlleyLibrarie {
 		
 		Bibliotheque.setBackground(bar.getBackground());
 		Bibliotheque.setBorderPainted(false);
-		ImageIcon Livre = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Bibliotheque.png");
+		ImageIcon Livre = new ImageIcon("Ressources/Bibliotheque.png");
 		Bibliotheque.setIcon(Livre);
 	    Bibliotheque.getIcon();
 	    
@@ -123,7 +123,7 @@ public class iceAlleyLibrarie {
 	    
 		Video.setBackground(bar.getBackground());
 		Video.setBorderPainted(false);
-		ImageIcon Film = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Video.png");
+		ImageIcon Film = new ImageIcon("Ressources/Video.png");
 		Video.setIcon(Film);
 		 Video.getIcon();
 		 
@@ -141,7 +141,7 @@ public class iceAlleyLibrarie {
 	    
 	    Chercher.setBackground(bar.getBackground());
 	    Chercher.setBorderPainted(false);
-		ImageIcon Search = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Chercher.png");
+		ImageIcon Search = new ImageIcon("Ressources/Chercher.png");
 		Chercher.setIcon(Search);
 		Chercher.getIcon();
 		
@@ -158,7 +158,7 @@ public class iceAlleyLibrarie {
 		
 		MiseAJour.setBackground(bar.getBackground());
 		MiseAJour.setBorderPainted(false);
-		ImageIcon Uptade = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Mise A Jour.png");
+		ImageIcon Uptade = new ImageIcon("Ressources/Mise A Jour.png");
 		MiseAJour.setIcon(Uptade);
 		 MiseAJour.getIcon();
 		 
@@ -178,7 +178,7 @@ public class iceAlleyLibrarie {
 		 
 		 Aide.setBackground(bar.getBackground());
 		 Aide.setBorderPainted(false);
-		ImageIcon Help = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\AProps.png");
+		ImageIcon Help = new ImageIcon("Ressources/AProps.png");
 		Aide.setIcon(Help);
 		Aide.getIcon();
 		
@@ -194,7 +194,7 @@ public class iceAlleyLibrarie {
 		
 		Parametre.setBackground(bar.getBackground());
 		Parametre.setBorderPainted(false);
-		ImageIcon Setting = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Fermer.png");
+		ImageIcon Setting = new ImageIcon("Ressources/Fermer.png");
 		Parametre.setIcon(Setting);
 	    Parametre.getIcon();
 		
@@ -209,8 +209,8 @@ public class iceAlleyLibrarie {
 	   
 		Extend.setBackground(bar.getBackground());
 		Extend.setBorderPainted(false);
-		ImageIcon Extension = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Extension.png");
-		ImageIcon Detendu = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Detendu.png");
+		ImageIcon Extension = new ImageIcon("Ressources/Extension.png");
+		ImageIcon Detendu = new ImageIcon("Ressources/Detendu.png");
 		Extend.setIcon(Extension);
 	    Extend.getIcon();
 	    boolean extendu = true;
@@ -263,7 +263,7 @@ public class iceAlleyLibrarie {
 	    
 		Suivant.setBackground(bar.getBackground());
 		Suivant.setBorderPainted(false);
-		ImageIcon next = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\FlesheDroite.png");
+		ImageIcon next = new ImageIcon("Ressources/FlesheDroite.png");
 		Suivant.setIcon(next);
 	    Suivant.getIcon();
 		
@@ -278,7 +278,7 @@ public class iceAlleyLibrarie {
 	    
 		Precedent.setBackground(bar.getBackground());
 		Precedent.setBorderPainted(false);
-		ImageIcon last = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\FlesheGauche.png");
+		ImageIcon last = new ImageIcon("Ressources/FlesheGauche.png");
 		Precedent.setIcon(last);
 	    Precedent.getIcon();
 		
@@ -292,7 +292,7 @@ public class iceAlleyLibrarie {
 	    
 		Pause.setBackground(bar.getBackground());
 		Pause.setBorderPainted(false);
-		ImageIcon stop = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Pause.png");
+		ImageIcon stop = new ImageIcon("Ressources/Pause.png");
 		Pause.setIcon(stop);
 	    Pause.getIcon();
 		
@@ -306,7 +306,7 @@ public class iceAlleyLibrarie {
 	    
 		Play.setBackground(bar.getBackground());
 		Play.setBorderPainted(false);
-		ImageIcon Jouer= new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Play.png");
+		ImageIcon Jouer= new ImageIcon("Ressources/Play.png");
 		Play.setIcon(Jouer);
 	    Play.getIcon();
 		
@@ -320,7 +320,7 @@ public class iceAlleyLibrarie {
 	   
 		PassD.setBackground(bar.getBackground());
 		PassD.setBorderPainted(false);
-		ImageIcon PaasD= new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\PassDroite.png");
+		ImageIcon PaasD= new ImageIcon("Ressources\PassDroite.png");
 		PassD.setIcon(PaasD);
 	    PassD.getIcon();
 		
@@ -335,7 +335,7 @@ public class iceAlleyLibrarie {
 	    
 		PassG.setBackground(bar.getBackground());
 		PassG.setBorderPainted(false);
-		ImageIcon PaasG= new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\PasseGauche.png");
+		ImageIcon PaasG= new ImageIcon("Ressources/PasseGauche.png");
 		PassG.setIcon(PaasG);
 	    PassG.getIcon();
 		
@@ -349,9 +349,9 @@ public class iceAlleyLibrarie {
 	    
 		Stop.setBackground(bar.getBackground());
 		Stop.setBorderPainted(false);
-		ImageIcon Aret= new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Stop.png");
+		ImageIcon Aret= new ImageIcon("Ressources/Stop.png");
 		Stop.setIcon(Aret);
-	    Stop.getIcon();
+	    Stop.getIcon();Ressources/
 		
 	    Stop.addActionListener(new ActionListener() {
 	 		public void actionPerformed(ActionEvent e) {
@@ -363,7 +363,7 @@ public class iceAlleyLibrarie {
 
 	    SoundM.setBackground(bar.getBackground());
 		SoundM.setBorderPainted(false);
-		ImageIcon soundminus = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\SonMoin.png");
+		ImageIcon soundminus = new ImageIcon("Ressources/SonMoin.png");
 		SoundM.setIcon(soundminus);
 	    SoundM.getIcon();
 		
@@ -377,7 +377,7 @@ public class iceAlleyLibrarie {
 	    
 	    SoundP.setBackground(bar.getBackground());
 		SoundP.setBorderPainted(false);
-		ImageIcon soundplus = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\SonPlus.png");
+		ImageIcon soundplus = new ImageIcon("Ressources/SonPlus.png");
 		SoundP.setIcon(soundplus);
 	    SoundP.getIcon();
 		
@@ -391,7 +391,7 @@ public class iceAlleyLibrarie {
 	    
 	    lookB.setBackground(bar.getBackground());
 	    lookB.setBorderPainted(false);
-		ImageIcon Searchi = new ImageIcon("C:\\Users\\Axel\\Pictures\\Edition Image\\Chercher.png");
+		ImageIcon Searchi = new ImageIcon("Ressources/Chercher.png");
 		lookB.setIcon(Searchi);
 		lookB.getIcon();
 		
