@@ -27,6 +27,8 @@ import javax.swing.JToolBar;
  */
 public class iceAlleyLibrarie {
 	
+	//declaration des composant
+	
 	private static JPanel Contain = new JPanel();
 	private static JPanel bar = new JPanel();
 	private static JPanel tool = new JPanel();
@@ -61,6 +63,7 @@ public class iceAlleyLibrarie {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		// Mise A jour Des Composant
 		HouseD();
 		
 		JFrame fenetre = new JFrame("Ice Alley Book");
@@ -375,7 +378,7 @@ public class iceAlleyLibrarie {
 	 	});
 	    
 	    
-	    SoundP.setBackground(bar.getBackground());
+	    SoundP.setBackground(bar.getBackground());// volume du son
 		SoundP.setBorderPainted(false);
 		ImageIcon soundplus = new ImageIcon("Ressources/SonPlus.png");
 		SoundP.setIcon(soundplus);
@@ -417,6 +420,8 @@ public class iceAlleyLibrarie {
 	    Edition.setPreferredSize(new Dimension(tool.getSize()));
 	    Edition.setBackground(new Color (180, 180, 180));
 	    
+		// Ajout des Composant à la fenètre
+		
 	    bar.add(Extend);
 		bar.add(Home);
 		bar.add(Bibliotheque);
@@ -472,6 +477,8 @@ public class iceAlleyLibrarie {
 		
 	}
 
+	// Creation et Déclaration des fonction
+	
 	private static void LookD() {
 		// TODO Auto-generated method stub
 		
