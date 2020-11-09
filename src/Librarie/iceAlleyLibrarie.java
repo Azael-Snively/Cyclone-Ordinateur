@@ -553,7 +553,9 @@ public class iceAlleyLibrarie {
 
 	private static void Livre (JTextPane tp) {
 		
-		
+		File htmlFile = new File(url);
+                Desktop.getDesktop().browse(htmlFile.toURI());
+
 		
 	}
 	
