@@ -21,7 +21,7 @@ import javax.swing.JTextPane;
 import javax.swing.JToolBar;
 
 /**
- * @author Axel
+ * @author Azael Snively
  * @version 1.1
  *
  */
