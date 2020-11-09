@@ -34,7 +34,9 @@ public class iceAlleyLibrarie {
 	private static JPanel tool = new JPanel();
 	
 	private static JButton Home = new JButton();
+	
 	private static JToolBar Edition = new JToolBar();
+	
 	private static JButton Bibliotheque = new JButton();
 	private static JButton Video = new JButton();
 	private static JButton Chercher = new JButton();
@@ -52,7 +54,9 @@ public class iceAlleyLibrarie {
 	private static JButton SoundM = new JButton();
 	private static JButton Stop = new JButton(); 
 	private static JButton lookB = new JButton();
+	
 	private static JTextField LookT = new JTextField();
+	
 	private static JTextPane livre = new JTextPane();
 	
 	
@@ -539,12 +543,20 @@ public class iceAlleyLibrarie {
 		lookB.setVisible(false);
 		LookT.setVisible(false);
 		
+		
 		livre.setVisible(true);
+		Livre(livre);
 		
 		
 		
 	}
 
+	private static void Livre (JTextPane tp) {
+		
+		
+		
+	}
+	
 	private static void HouseD() {
 		// TODO Auto-generated method stub
 		
