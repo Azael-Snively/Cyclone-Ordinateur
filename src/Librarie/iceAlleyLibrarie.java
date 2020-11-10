@@ -70,7 +70,7 @@ public class iceAlleyLibrarie {
 		// Mise A jour Des Composant
 		HouseD();
 		
-		JFrame fenetre = new JFrame("Ice Alley Book");
+		JFrame fenetre = new JFrame("Cyclone");
 		fenetre.setSize(new Dimension (500,500));
 		fenetre.setVisible(true);
 		fenetre.setLocationRelativeTo(null);
