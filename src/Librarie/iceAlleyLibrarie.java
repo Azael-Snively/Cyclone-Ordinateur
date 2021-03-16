@@ -580,42 +580,10 @@ public class iceAlleyLibrarie {
 		
 	}
 
-	private static void Uptade() {
-		// TODO Auto-generated method stub
-		
-		 JProgressBar barpro  = new JProgressBar(); // if(montrer == false || miseAJour == false) { 
-		Contain.add(barpro);
-			barpro.setStringPainted(true); 
-			barpro.setPreferredSize( new Dimension (500, 35));
-			barpro.setValue(0);
-			barpro.setBounds(new Rectangle (50, 35, 0, 0));
-			int position = 0;
-		        barpro.setVisible(true);
-		        barpro.setForeground(Color.GRAY);
-		        barpro.setBackground(Color.LIGHT_GRAY);
-		        barpro.setToolTipText("Chargement...");
-		        //load.setVisible(true);
-		        while (position < 100) {
-		            barpro.setValue(position);
-		            try {
-		                Thread.sleep(500);
-		            } catch (InterruptedException chargement) {
-		            }
-		            position += 5;
-		            
-		            if (position == 100) {
-		            	
-		            	
-		            	
-		            	barpro.setVisible(false);
-		            	
-		            	
-		            }  
-		            
-		            	
-		            	
-		        }
-		         
+	private static void search(){
+	
+	
+	}
 		    
 		 
 		 
